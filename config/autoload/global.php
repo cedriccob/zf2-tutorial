@@ -14,10 +14,10 @@
 return array(
     'db' => array(
         'driver' => 'Pdo',
-        'dsn' => 'mysql:dbname=zf2-tutorial;hostname=localhost',
+        'dsn' => 'mysql:dbname=zf2tutorial;hostname=localhost',
         'username' => 'root',
         'password' => '',
-        'driver_oprions' => array(
+        'driver_options' => array(
             PDO::MYSQL_ATTR_INIT_COMMAND =>'SET NAMES \'UTF8\''
         ),
     ),
